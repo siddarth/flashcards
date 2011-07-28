@@ -10,7 +10,7 @@ tests.
 
     $ cd nato-alphabet
 
-    $ ruby nato-alphabet <action>
+    $ rubynato_alphabet_tester.rb <action>
 
 Action, here, takes one of two possible values:
 1. all (default):
@@ -23,7 +23,7 @@ You can exit at any time by breaking (CTRL-C).
 
 == EXAMPLE
 
-  $ ruby nato-alphabet.rb all
+  $ ruby nato_alphabet_tester.rb all
 
 Enter the telephony for the letter A: Alfa
 Correct.
@@ -45,7 +45,7 @@ Your score:
   Total: 3
 -----------------------------------
 
-  $ ruby nato-alphabet.rb random
+  $ ruby nato_alphabet_tester.rb random
 
 Enter the telephony for the letter P: Peninsula
 Incorrect. The correct answer is 'Papa'.
